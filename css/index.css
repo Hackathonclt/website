@@ -1,0 +1,164 @@
+
+
+html {
+    height : 100%;
+    width  : 100%;
+}
+
+body {
+    height : 100%;
+    width  : 100%;
+    margin : 0;
+    padding: 0;
+}
+
+.hackathon-bkgd {
+    background : url('../image/background-logo.jpg') 0 50%;
+    
+}
+
+#body-div {
+    height : 100%;
+    width  : 100%;
+    position : relative;
+
+}
+
+#body-top {
+    margin-left : 40px;
+    padding-top : 10px;
+}
+
+#body-content {
+    margin : 35px 10px;
+    padding : 5px;
+}
+
+#hack-btn {
+    height : 160px;
+    width  : 160px;
+    background : #fff url('../image/hackathon-logo-128-112.jpg') no-repeat 45% 50%;
+    border-width : 5px;
+    margin : 28px 32px;
+    
+}
+
+#hack-btn-link {
+    background : url('../image/HACKATHONBKGD_256_223.png') no-repeat 50% 50%;
+    position : absolute;
+    top : 10%;
+    left : 10%;
+    height : 220px;
+    width : 220px;
+    background-color : none;
+}
+
+#banner-div {
+/*    height : 150px; */
+    width : 100%;
+    height: 30px;
+    padding: 2px;
+
+    position : absolute;
+    left : 0;
+    top : 0;
+  
+    background-color : #0038aa;
+/*    z-index : 30000;  */
+    border : 1px solid #333;
+}
+
+#banner-social-icon {
+    display : inline-block;
+    float  : right;
+    height : 10px;
+}
+
+#banner-menu-links {
+    display: inline-block;
+    height : 10px;
+    color : white;
+    padding : 5px;
+}
+
+a.menu-link{
+    color : white;
+    text-decoration:none;
+}
+
+#body-footer a:visited{
+    color:#999;
+}
+
+#body-content {
+    position:relative;
+}
+
+#title {
+    margin-left : 20px;
+    margin-top: 30px;
+    font-family: GillSans, Trebuchet, Calibri, Arial, sans-serif;
+    font-size : 30pt;
+    display : inline-block;
+    font-weight : bolder;
+}
+
+#title-div {
+    padding-bottom: 20px;
+    height : 112px;
+}
+
+#body-left{
+    height : 100%;
+    width  : 200px;
+    float  : left;
+    
+}
+
+#body-center {
+    position : absolute;
+    left : 220px;
+    top  : 125px;
+    background-color: #f5f5ff;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+#body-footer{
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    height : 30px;
+    width  : 100%;
+    background-color : #262626;
+    color : #999;
+}
+
+.sponsor-logo {
+    width : 100%;
+    margin : 30px auto;
+    text-align : center;
+}
+
+.sponsor-logo img {
+    display : inline-block;
+    margin : 0 auto;
+}
+.rounded--button-corners {  
+  -moz-border-radius: 80px; /* Firefox */  
+  -webkit-border-radius: 80px; /* Safari, Chrome */  
+  border-radius: 80px; /* CSS3 */  
+}  
+
+.icon { background:url(../image/top-icon.png) no-repeat top left; height:10px; display:inline-block; float:right; }
+.facebook { background-position: 0px  0px; width:7px;  margin:7px 10px }
+.twitter  { background-position:-29px 0px; width:9px;  margin:7px 10px }
+.next     { background-position:-57px 0px; width:13px; margin:7px 10px }
+.mail     { background-position:-88px 0px; width:13px; margin:7px 10px }
+
+#author-attribution {
+    margin : 5px 30px;
+    float: right;
+
+
+}
