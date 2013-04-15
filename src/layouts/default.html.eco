@@ -36,12 +36,29 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
+    <div id='banner-div'>
 
-	<header></header>
-	<article>
+        <div id='banner-menu-links'>
+            <a  class='menu-link' href='./index.html'>HOME</a>
+            <a  class='menu-link' href='./overview.html'>OVERVIEW</a>
+            <a  class='menu-link' href='./registration.html'>REGISTRATION</a>
+            <a  class='menu-link' href='./tech-stack.html'>TECH STACK</a>
+            <a  class='menu-link' href='http://www.meetup.com/HackathonCLT/messages/boards/'>FORUM</a>
+            <a  class='menu-link' href='http://www.bizjournals.com/charlotte/news/2013/04/05/charlottes-packard-place-to-host.html'>NEWS</a>
+        </div>
+
+        <div id='banner-social-icon'>
+    <!--        <a href="http://www.facebook.com/pages/Tresata/163964260329170" target="_blank" class="icon facebook"></a>
+    -->
+            <a href="https://twitter.com/charlottehacks" target="_blank" class="icon twitter"></a>
+    <!--        <a href="http://www.youtube.com/user/thebigdata?feature=mhum" target="_blank" class="icon next"></a>
+    -->
+            <a href="mailto:curious@tresata.com" target="_blank" class="icon mail"></a>
+        </div>
+    </div>
+
+
 		<%- @content %>
-	</article>
-	<footer></footer>
 
 	<!-- DocPad Scripts + Our Own -->
 	<%- @getBlock('scripts').add(@getGruntedScripts()).toHTML() %>
