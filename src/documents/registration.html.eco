@@ -9,31 +9,7 @@ layout: 'default'
             <span id='title'>HACKATHONclt MMXIII</span>
         </div>
     </div>
-    <div id='body-left'>
-
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/Tresata-horizontal-small.jpg" />
-        </div>
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/ht.jpg" />
-        </div>
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/Ettain_logo.jpg" />
-        </div>
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/forsythe.jpg" />
-        </div>
-
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/Packard Logo small.jpg" />
-        </div>
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/peak10.jpg" />
-        </div>
-        <div class='sponsor-logo'>
-            <img src="./image/sponsor-logo/sbj.jpg" />
-        </div>
-    </div>
+    <%- @partial('sponsors.html.eco') %>
     <div id='body-center'>
         <h1 id='body-center-title'>REGISTRATION</h1>
         <p>
