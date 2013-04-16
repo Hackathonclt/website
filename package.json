@@ -1,9 +1,9 @@
 {
-	"name": "html5-boilerplate-frontend.docpad",
+	"name": "HackathonCLT",
 	"version": "0.1.0",
 	"private": true,
-	"description": "HTML5 Boilerplate skeleton for DocPad. Bare essentials for building a modern website with best practices. Adds frontend plugins asset compilation.",
-	"homepage": "https://github.com/lukekarrys/html5-boilerplate.docpad",
+	"description": "Hackathon CLT site, built using Docpad",
+	"homepage": "https://github.com/hackathonclt/website",
 	"keywords": [
 		"docpad-skeleton",
 		"docpad",
@@ -13,7 +13,7 @@
 		"h5bp",
 		"grunt"
 	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+	"authors": ["Ben Thoroson", "Adam Ferguson"],
 	"maintainers": [
 		"Luke Karrys (http://lukekarrys.com)"
 	],
@@ -21,12 +21,9 @@
 		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
 		"Luke Karrys (http://lukekarrys.com)"
 	],
-	"bugs": {
-		"url": "https://github.com/lukekarrys/html5-boilerplate.docpad/issues"
-	},
 	"repository" : {
 		"type" : "git",
-		"url" : "http://github.com/lukekarrys/html5-boilerplate.docpad.git"
+		"url" : "http://github.com/Hackathonclt/website"
 	},
 	"engines" : {
 		"node": "0.8.x",
