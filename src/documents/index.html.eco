@@ -1,0 +1,16 @@
+---
+layout: 'default'
+---
+
+<div id='body-div' class='hackathon-bkgd'>
+
+    <div id='hack-btn-link'>
+        <a  href='./overview.html'>
+            <button id="hack-btn" class='rounded--button-corners'></button>
+        </a>
+    </div>
+    <div id='body-footer'>
+        <span id='author-attribution'>artwork by Charlotte Artist -- <a href='http://www.kentyoungstrom.com'> kenT Youngstrom</a></span>
+    </div>
+
+</div>
