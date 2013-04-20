@@ -35,10 +35,22 @@ body {
     padding : 5px;
 }
 
+a#getstarted{
+   color: red;
+}
+
+h3#getstarted{
+ color:red;
+}
+
 a.menu-link{
     color : white;
     text-decoration:none;
     margin: 0 20px;
+}
+
+a {
+ text-decoration:none;
 }
 
 #title {
@@ -131,6 +143,16 @@ a.menu-link{
     width : 100%;
 }
 
+.event-box-container3 .event-box{
+     width : 20%;
+         margin-left: 4%;
+        }
+
+        .event-box-container3 {
+             width : 100%;
+     padding-left:160px;
+            }
+
 .event-box-title {
     font-weight : bolder;
     text-align : center;
@@ -141,3 +163,4 @@ a.menu-link{
     -webkit-padding-start : 20px;
     -moz-padding-start : 20px;
 }
+
