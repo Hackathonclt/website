@@ -153,6 +153,12 @@ a.menu-link{
 }
 
 .event-box {
-    height : 160px;
+ /*   height : 160px;*/
+ height:100%;
+ min-height:220px;/*173px;*/ 
 }
 
+.event-box:hover{
+  background: #e1e1e1;
+  border-top: 1px solid #d0d0d0;
+}
