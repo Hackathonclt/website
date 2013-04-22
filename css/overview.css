@@ -78,7 +78,7 @@ a.menu-link{
 }
 
 #body-content {
-    position:relative;
+/*    position:relative; */
 }
 
 #title {
@@ -109,6 +109,8 @@ a.menu-link{
     background-color: #f5f5ff;
     padding-left : 10px;
     padding-right : 10px;
+    right : 0;
+    
 }
 
 #body-footer{
