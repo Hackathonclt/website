@@ -131,14 +131,24 @@ a {
 
 .event-box {
     float : left;
-    height : 100%;
     border : 1px solid black;
     padding : 2px;
 }
 
+.event-box-container2 .event-box{
+   width : 40%;
+   min-height : 232px;
+   max-width:350px;
+   margin: 0 auto;
+}
+
+.event-box-container2 {
+ width : 100%;
+}
+
 .event-box-container4 .event-box{
     width : 20%;
-    margin-left: 4%;
+    padding-left:160px;
 }
 
 .event-box-container4 {
