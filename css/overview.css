@@ -161,4 +161,27 @@ a.menu-link{
 .event-box:hover{
   background: #e1e1e1;
   border-top: 1px solid #d0d0d0;
+  cursor:hand;
+  cursor:pointer;
 }
+
+
+div.power-button{
+  border-color:#0038aa;
+  border-style:dotted;
+  width:700px;
+  height:138px;
+}
+
+.power-button:hover{
+ cursor:hand;
+ cursor:pointer;
+ border-color:red;
+ border-style:solid
+}
+
+
+
+
+
+
