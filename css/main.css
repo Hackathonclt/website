@@ -89,6 +89,14 @@ a {
     text-align : center;
 }
 
+#body-center-prizes {
+    position : absolute;
+    left : 220px;
+    top  : 125px;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
 #body-footer{
     position : absolute;
     bottom : 0;
@@ -137,9 +145,10 @@ a {
 
 .event-box-container2 .event-box{
    width : 40%;
-   min-height : 232px;
+   min-height : 278px;
    max-width:350px;
    margin: 0 auto;
+   
 }
 
 .event-box-container2 {
